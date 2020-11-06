@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64f953cf-8a3f-4a52-8a75-00fe57946c26" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dNTeQGycQWoAVQ45sTXGvV3AaZ" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/H5-Game-master" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64f953cf-8a3f-4a52-8a75-00fe57946c26" name="默认的" comment="" />
+      <created>1592264646037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592264646037</updated>
+      <workItem from="1592264648453" duration="404000" />
+      <workItem from="1592371205897" duration="1051000" />
+      <workItem from="1592372307048" duration="1800000" />
+      <workItem from="1592374324848" duration="6314000" />
+      <workItem from="1592380697524" duration="268000" />
+      <workItem from="1592381070846" duration="174000" />
+      <workItem from="1592381850532" duration="222000" />
+      <workItem from="1592382207273" duration="2688000" />
+      <workItem from="1592384990486" duration="1370000" />
+      <workItem from="1592388935907" duration="2985000" />
+      <workItem from="1592393174176" duration="4400000" />
+      <workItem from="1592440472957" duration="585000" />
+      <workItem from="1592441107014" duration="4182000" />
+      <workItem from="1592445314564" duration="5329000" />
+      <workItem from="1592450729070" duration="1021000" />
+      <workItem from="1592452010801" duration="8334000" />
+      <workItem from="1592463738517" duration="570000" />
+      <workItem from="1592464941327" duration="194000" />
+      <workItem from="1592470031999" duration="1390000" />
+      <workItem from="1592529982243" duration="192000" />
+      <workItem from="1592547543651" duration="263000" />
+      <workItem from="1592547886266" duration="143000" />
+      <workItem from="1592549102583" duration="847000" />
+      <workItem from="1592552514430" duration="827000" />
+      <workItem from="1592553407976" duration="2024000" />
+      <workItem from="1592557564090" duration="4713000" />
+      <workItem from="1592564650112" duration="633000" />
+      <workItem from="1592568050433" duration="532000" />
+      <workItem from="1592568621129" duration="677000" />
+      <workItem from="1592675484625" duration="113000" />
+      <workItem from="1592810677748" duration="1202000" />
+      <workItem from="1592821182555" duration="508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

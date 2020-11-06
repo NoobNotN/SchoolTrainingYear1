@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>做着给自己玩的花里胡哨网</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/index/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="files/index/data.js"></script>
+      <script src="files/index/banniang.js"></script>
+    <script type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+      <script src="files/index/ajax.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
+      <script src="js/gameEngine.js" type="text/javascript" charset="utf-8"></script>
+      <script src="js/enemy.js" type="text/javascript" charset="utf-8"></script>
+      <script src="js/myPlane.js" type="text/javascript" charset="utf-8"></script>
+      <script src="js/bullet.js" type="text/javascript" charset="utf-8"></script>
+      <script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+      <link href="files/tab/tab_base.css"  type="text/css" rel="stylesheet"/>
+      <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+      <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
+      <script type="text/javascript" src="files/tab/tab_base.js"></script>
+      <script type="text/javascript" src="files/tab/tab.js"></script>
+      <script type="text/javascript" src="demo.js"></script>
+
+
+
+  </head>
+  <body>
+<!--内容词云-->
+  <div id="newci" class="box" style="z-index: 100">
+      <div id="476d5672fe8146508df04ededdfd2690" class="chart-container" style="width:85vw; height:90vh;display: block;position: fixed;
+                left:-100vw;top: -7vh;z-index: 100" ></div>
+
+      <div id="f7af58e272f7436b8a533a3cbba4d783" class="chart-container" style="width:100vw; height:100vh;display: block;position: fixed;
+                left:-100vw;" ></div>
+      <div id="ciback" style="display: none"> back </div>
+  </div>
+<!--小游戏-->
+  <div id="game"  style="display: none">
+      <div id="main_body" class="main">
+          <ul id="list" style="	color: white;">
+              <li value="80" style="display: none">起飞</li>
+          </ul>
+      </div>
+      <script type="text/javascript">
+          window.onload = function() {
+              $("#qiu6").click(function () {
+                  $("#game").css("display","block");
+                  $("#game").css("z-index","100");
+              var oList = document.getElementById("list");
+              var allLi = oList.getElementsByTagName("li");
+              for (var i = 0; i < allLi.length; i++) {
+                      oList.parentNode.removeChild(oList);
+                      var fireInterval = 80;
+                      myPlane.fireInterval = fireInterval;
+                      gameEngine.start();
+
+                      document.addEventListener("touchstart", function(evt) {
+                          console.log("document.ontouchstart false!");
+                          evt.preventDefault();
+                          return false;
+                      });
+                }
+              });
+          }
+      </script>
+  </div>
+<!--背景词云-->
+  <div id="ciyun" >
+      <img  id="tu"  src="">
+  </div>
+<!--球球-->
+  <div id="qiuqiu" >
+    <div class="qiu" id="qiu1">
+        <div class="texxt" style="padding-top: 15vh">B站热点分析</div>
+    </div>
+    <div class="qiu" id="qiu2">
+        <div class="texxt" style="padding-top: 6vh">视频自媒体<br>热词云</div>
+    </div>
+    <div class="qiu" id="qiu3">
+        <div class="texxt">文章自媒体<br>热词云</div>
+    </div>
+    <div class="qiu" id="qiu4">
+        <div class="texxt" style="padding-top: 15vh">影视自媒体<br>分析站</div>
+    </div>
+      <div class="qiu" id="qiu5">
+          <div class="texxt" id="shuaxin">服务器<br>数据更新</div>
+      </div>
+      <div class="qiu" id="qiu6">
+          <div class="texxt" >整点花的</div>
+      </div>
+      <div class="qiu" id="qiu7">
+          <div class="texxt" >知乎热点分析</div>
+      </div>
+  </div>
+<!--B站动画-->
+  <div id="box">
+
+<!--    <input type="button" id="inputfile" name="fileContent">-->
+    <svg id="Bsvg" width="1200" height="600"></svg>
+    <script src="config.js"></script>
+    <script src="imgs.js"></script>
+    <script src="color_ranges.js"></script>
+    <script src="visual.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <div id="back">back</div>
+  </div>
+
+  </body>
+
+  <script type="text/javascript">
+      L2Dwidget.init({"display":
+              {
+                  "superSample": 2,
+                  "width": 800,
+                  "height": 800,
+                  "position": "right",
+                  "hOffset": 0,
+                  "vOffset": 0
+              }
+      });
+      $(document).ready(function () {
+          $("#live2d-widget").css("width","25vw");
+          $("#live2d-widget").css("height","25vw");
+          $("#live2dcanvas").css("height","25vw");
+          $("#live2dcanvas").css("width","25vw");
+      });
+  </script>
+</html>

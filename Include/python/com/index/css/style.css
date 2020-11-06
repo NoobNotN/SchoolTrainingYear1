@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	width: 100%; 
+	height: 100%; 
+	overflow: hidden;
+	font-size: 12px;
+}
+
+ul, li {
+	list-style: none;
+}
+
+/** 主菜单 */
+.main {
+	/*width: 480px;*/
+
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	margin: 0 auto;
+	/*background: url(../img/bg.jpg);*/
+	background-size: cover;
+	position: fixed;
+	position: relative;
+}
+
+.main #list {
+	width: 10rem;
+	height: 20rem;
+	position: absolute;
+	left: 50%; 
+	top: 50%;
+	margin-left: -11rem;
+	margin-top: -23rem;
+}
+
+.main #list li {
+	width: 280px;
+	height: 120px;
+	line-height: 120px;  
+	background: #f40;
+	color: white;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	border: 1px dotted black;
+	margin-bottom: 30px;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer; /*光标在该范围内变成点击手指的图标*/
+}
+
+/** 游戏加载界面  **/
+.logo {
+	width: 14rem;
+	height: 3rem;
+	background: url(../img/logo.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 50%; 
+	top: 25%;
+	margin-left: -7rem;
+}
+
+.loading {
+	width: 300px;
+	height: 60px;
+	background: url(../img/loading1.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 50%; 
+	top: 50%;
+	margin-left: -120px;
+	margin-top: -30px;
+}
+
+.myplane {
+	width: 98px;
+	height: 122px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url(../img/me.png);
+}
+
+.bullet {
+	position: absolute;
+	width: 7px;
+	height: 18px;
+	background: url(../img/bullet.png);
+}
+
+.bullet-die {
+	position: absolute;
+	width: 41px;
+	height: 39px;
+	background: url(../img/die1.png);
+}
+
+/* /大型飞机/ */
+.enemy-large {
+	width: 165px;
+	height: 256px;
+	background: url(../img/plane3.png) no-repeat;
+	position: absolute;
+}
+
+/* /中型飞机/ */
+.enemy-middle {
+	width: 70px; 
+	height: 92px;
+	background: url(../img/plane2.png) no-repeat;
+	position: absolute;
+}
+
+/* /小型飞机/ */
+.enemy-small {
+	width: 59px; 
+	height: 36px;
+	background: url(../img/plane1.png) no-repeat;
+	position: absolute;
+}
+
+/* /分数/ */
+.score {
+	width: 200px;
+	height: 100px;
+	/*background: yellow;*/
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 50px;
+	z-index: 100;
+	opacity:0.4;
+	color: white;
+}
